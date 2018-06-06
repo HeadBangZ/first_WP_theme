@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background: #fff;
+    font-family: Helvetica, serif;
+}
+
+body {
+    text-align: center;
+    padding: 25px;
+}
