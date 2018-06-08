@@ -24,7 +24,7 @@ add_action('wp_enqueue_scripts', 'wislow_script_theme');
  */
 function wislow_theme_setup() {
     add_theme_support('menus');
-
+    // Adding my custom menus
     register_nav_menus([
        'primary' => __('Main Menu', 'wislow'),
        'secondary' => __('Footer Menu', 'wislow')
