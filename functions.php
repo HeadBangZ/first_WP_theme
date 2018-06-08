@@ -25,7 +25,15 @@ add_action('wp_enqueue_scripts', 'wislow_script_theme');
 function wislow_theme_setup() {
     add_theme_support('menus');
 
-    register_nav_menu('primary', 'Primary Header Navigation');
-    register_nav_menu('secondary', 'Footer Navigation');
+    register_nav_menus([
+       'primary' => __('Main Menu', 'wislow'),
+       'secondary' => __('Footer Menu', 'wislow')
+    ]);
+//    register_nav_menu('primary', 'Primary Header Navigation');
+//    register_nav_menu('secondary', 'Footer Navigation');
 }
 add_action('init', 'wislow_theme_setup');
+
+
+
+
