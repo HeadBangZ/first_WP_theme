@@ -13,6 +13,6 @@
 
 	echo "Hello Thomas!";
 	echo "Hello back Toms!";
-	echo "Hello Thomas + 1";
+	echo "Hello Thomas + 2";
 <?php get_footer(); ?>
 
