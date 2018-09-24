@@ -10,4 +10,7 @@
             <?php endwhile;
         endif;
     ?>
+
+	echo "Hello Thomas!";
 <?php get_footer(); ?>
+
