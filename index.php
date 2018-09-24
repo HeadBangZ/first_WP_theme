@@ -12,5 +12,6 @@
     ?>
 
 	echo "Hello Thomas!";
+	echo "Hello back Toms!";
 <?php get_footer(); ?>
 
