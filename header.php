@@ -9,7 +9,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(array()); ?>>
-    <?php wp_nav_menu(['theme_location' => 'primary']); ?>
+    <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
 <div class="container">
 
 <!-- site-header -->
@@ -17,4 +17,7 @@
         <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
         <p><?php bloginfo('description'); ?></p>
     </header>
+
+
+
 
